@@ -1,0 +1,35 @@
+package colletion;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class list {
+
+	  public static void main(String[] args) {
+	    final int MAX = 20000;
+	    long tInicio = System.currentTimeMillis();
+	    List<Integer> lista = new ArrayList<Integer>();
+	    for (int i = 0; i < MAX; i++) {
+	      lista.add(i);
+	    }
+
+	    for (int i = 0; i < MAX; i++) {
+	      lista.contains(i);
+	    }
+	    long tFim = System.currentTimeMillis();
+	    System.out.println("Tempo total: " + (tFim - tInicio));
+	    
+	    
+	        List<String> lista1 = new ArrayList<String>();
+	        lista1.add("João da Silva");
+	        lista1.add("Antonio Sousa");
+	        lista1.add("Lúcia Ferreira");
+	        System.out.println(lista1);
+	      }
+	  }
+
+	 
+	  
+	}
+	
+

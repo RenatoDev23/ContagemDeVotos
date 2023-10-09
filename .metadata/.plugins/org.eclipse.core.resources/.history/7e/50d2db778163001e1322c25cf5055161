@@ -1,0 +1,10 @@
+package colletion;
+
+public class Criando_uma_lista_com_ArrayList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

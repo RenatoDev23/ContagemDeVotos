@@ -1,0 +1,38 @@
+package colletion;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class Criando_uma_lista_com_ArrayList {
+
+	public static void main(String[] args) {
+		
+		
+       
+        	
+        List <String> carros;
+        carros = new ArrayList();
+        carros.add("monza");
+       System.out.println(carros);
+       
+       
+       System.out.println("____________________________________");
+       
+       
+       
+       ArrayList<String> carros1 = new ArrayList<String>();
+       carros1.add("Fusca");
+       carros1.add("Kombi");
+       carros1.add("Chevette");
+       carros1.add("Opala");
+        
+       Collections.sort(carros1);
+
+       for (String i : carros1) {
+         System.out.println(i);
+	}
+	
+	
+
+}

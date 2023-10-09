@@ -1,0 +1,50 @@
+package colletion;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class list {
+
+	  public static void main(String[] args) {
+	    List<String> lista = new ArrayList<String>();
+	    lista.add("João da Silva");
+	    lista.add("Antonio Sousa");
+	    lista.add("Lúcia Ferreira");
+	    System.out.println(lista);
+	    System.out.println("__________________________________________");
+	    Collections.sort(lista);
+	    System.out.println(lista);
+	  }
+
+	  
+	  public class Aluno {
+		  private String nome;
+		  private String curso;
+		  double nota;
+
+		  Aluno(String nome, String curso, double nota) {
+		    this.nome = nome;
+		    this.curso = curso;
+		    this.nota = nota;
+		  }
+
+		  public String toString() {
+		    return this.nome;
+		  }
+		  
+		  List<Aluno> lista = new ArrayList<Aluno>();
+
+		    Aluno a = new Aluno("João da Silva", "Linux básico", 0);
+		    Aluno b = new Aluno("Antonio Sousa", "OpenOffice", 0);
+		    Aluno c = new Aluno("Lúcia Ferreira", "Internet", 0);
+		    lista.add(a);
+		    lista.add(b);
+		    lista.add(c);
+		    System.out.println(lista);
+		  }
+
+		  // Métodos getters e setters
+		}
+	  
+	}

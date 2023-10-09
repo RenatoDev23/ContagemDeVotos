@@ -1,0 +1,23 @@
+
+ package colletion;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class map{
+	 
+	
+ public static void main (String[] args) {
+	 
+	 
+	 
+	 Map<String, String> map = new HashMap<>();
+	 map.put("user" , "Maria");
+	 map.put("phone", "28782333");
+	 
+    for(String key : map.keySet()) {
+    	
+    	System.out.println("chave = "+ key + ", Valor = " + map.get(key));
+    }
+ }
+ }
